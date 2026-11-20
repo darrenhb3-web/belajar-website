@@ -4,8 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 } 
+body {
+    background-color: gray;
+}
 .navbar {
-    background-color: orange;
+    background-color: rgb(20, 212, 20);
     display: flex;
     height: 80px;
     align-items: center;
