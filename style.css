@@ -1,0 +1,25 @@
+/* reset tampilan atau style bawaan dari browser */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.navbar {
+    background-color: orange;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+.menu-nav {
+    display: flex;
+    gap: 16px;
+}
+.menu-nav a{
+    color: white;
+    text-decoration: none;
+}
+.menu-nav a:hover{
+    color: red;
+}
