@@ -5,7 +5,7 @@
     box-sizing: border-box;
 } 
 body {
-    background-color: gray;
+    background-color: white;
 }
 .navbar {
     background-color: rgb(20, 212, 20);
@@ -25,4 +25,21 @@ body {
 }
 .menu-nav a:hover{
     color: red;
+}
+/* section-hero */
+.section-hero {
+    background: lightblue;
+}
+
+.container {
+    width: 70%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 48px 0;
+}
+.kolom-kanan img {
+    width: 100%;
 }
