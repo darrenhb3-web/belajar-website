@@ -1,12 +1,14 @@
 /* reset tampilan atau style bawaan dari browser */
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
 body {
     background-color: white;
 }
+
 .navbar {
     background-color: rgb(20, 212, 20);
     display: flex;
@@ -15,17 +17,21 @@ body {
     justify-content: space-between;
     padding: 0 32px;
 }
+
 .menu-nav {
     display: flex;
     gap: 16px;
 }
-.menu-nav a{
+
+.menu-nav a {
     color: white;
     text-decoration: none;
 }
-.menu-nav a:hover{
+
+.menu-nav a:hover {
     color: red;
 }
+
 /* section-hero */
 .section-hero {
     background: lightblue;
@@ -35,11 +41,24 @@ body {
     width: 70%;
     /* background: lightgreen; */
     margin: 0 auto;
+    padding: 48px 0;
+}
+
+.con-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 48px 0;
 }
+
 .kolom-kanan img {
     width: 100%;
+}
+
+.con-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.con-about h2 {
+    grid-column: span 2;
 }
